@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>AI 智能去水印 | AI Watermark Remover</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+      tailwind.config = {
+        theme: {
+          extend: {
+            colors: {
+              primary: '#3b82f6',
+              secondary: '#1e293b',
+              accent: '#8b5cf6',
+            },
+            animation: {
+              'pulse-slow': 'pulse 3s cubic-bezier(0.4, 0, 0.6, 1) infinite',
+            }
+          },
+        },
+      }
+    </script>
+  <script type="importmap">
+{
+  "imports": {
+    "react/": "https://esm.sh/react@^19.2.1/",
+    "react": "https://esm.sh/react@^19.2.1",
+    "@google/genai": "https://esm.sh/@google/genai@^1.32.0",
+    "react-dom/": "https://esm.sh/react-dom@^19.2.1/",
+    "lucide-react": "https://esm.sh/lucide-react@^0.559.0"
+  }
+}
+</script>
+</head>
+  <body class="bg-gray-950 text-gray-100 font-sans antialiased selection:bg-primary selection:text-white overflow-x-hidden">
+    <div id="root"></div>
+  </body>
+</html>

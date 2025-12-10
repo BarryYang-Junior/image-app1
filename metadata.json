@@ -1,0 +1,7 @@
+{
+  "name": "AI 智能去水印 (AI Watermark Remover)",
+  "description": "Powerful AI tool to automatically remove watermarks, text, and logos from your images using Google Gemini.",
+  "requestFramePermissions": [
+    "camera"
+  ]
+}
